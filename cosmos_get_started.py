@@ -2,8 +2,8 @@ from azure.cosmos import exceptions, CosmosClient, PartitionKey
 import family
 
 # Initialize the Cosmos client
-endpoint = "endpoint"
-key = 'primary_key'
+endpoint = "https://preetli.documents.azure.com:443/"
+key = 'vMRl6vSxY9wNkGRNAKy6quuA0Zs65U9LWuMuw1xfEvv1GuC4Z8ngUfoZLgfoi2e1nJDDkuaO6OJT5elz1ZgjMw=='
 
 # <create_cosmos_client>
 client = CosmosClient(endpoint, key)
